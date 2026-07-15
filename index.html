@@ -1,110 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explore the World of Coffee</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fcf8f2;
-            color: #4a3424;
-        }
-
-        header {
-            text-align: center;
-            border-bottom: 2px solid #8b5a2b;
-            padding-bottom: 10px;
-        }
-
-        h1 {
-            color: #8b5a2b;
-        }
-
-        main {
-            margin-top: 20px;
-        }
-
-        .gallery {
-            
-            display: flex;
-            gap: 15px;
-            margin: 20px 0;
-            justify-content: space-around;
-        }
-
-        .gallery img {
-            width: 30%;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        footer {
-            margin-top: 30px;
-            text-align: center;
-            font-size: 0.9em;
-            border-top: 1px solid #ddd;
-            padding-top: 10px;
-        }
-
-        a {
-            color: #b5651d;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>Pet Lovers - Home</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+    <a href="#main" class="skip-link">Skip to Main Content</a>
 
     <header>
-        <h1>Welcome to the Coffee Corner</h1>
+        <h1>The Joy of Having Pets</h1>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="dogs.html">Dogs</a>
+            <a href="cats.html">Cats</a>
+        </nav>
     </header>
 
-    <main>
-        <h2>3 Most Popular Coffee Beans</h2>
-        <p>Coffee is more than just a drink; it is an art from farm to cup. Here are the most popular bean varieties:
-        </p>
-
-        <ul>
-            <li><strong>Arabica:</strong> Known for its sweet, complex flavor profile, high acidity, and lower caffeine
-                content.</li>
-            <li><strong>Robusta:</strong> Strong, bold flavor with earthy notes, lower acidity, and twice the caffeine
-                content of Arabica.</li>
-            <li><strong>Liberica:</strong> A rare variety featuring a unique fruity, floral aroma and a bold, smoky
-                flavor profile.</li>
-        </ul>
-
-        <h2>Visual Highlights</h2>
-        <div class="gallery">
-            <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=400"
-                alt="A hot cup of coffee">
-            <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?q=80&w=400"
-                alt="Roasted coffee beans">
-            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=400"
-                alt="Cozy coffee shop setting">
+    <main id="main">
+        <h2>Welcome to Our Pet Haven</h2>
+        <p>Pets bring immense joy, companionship, and unconditional love into our lives. Whether you are a dog person, a cat person, or love all animals, this site celebrates our furry friends.</p>
+        
+        <div class="flex-container">
+            <div class="flex-item">
+                <h3>Dogs</h3>
+                <p>Loyal, energetic, and always happy to see you. Dogs truly are man's best friend.</p>
+            </div>
+            <div class="flex-item">
+                <h3>Cats</h3>
+                <p>Independent, elegant, and full of personality. Cats rule their homes with grace.</p>
+            </div>
         </div>
-
-        <p>To learn more about the history and brewing techniques of coffee around the world, you can visit Wikipedia.
-        </p>
+        
+        <div class="single-image">
+            <img src="https://images.unsplash.com/photo-1450778869180-41d0601e046e?q=80&w=600" alt="A happy dog and cat sitting together outdoors">
+        </div>
     </main>
 
     <footer>
-        <p>Learn more at: <a href="https://en.wikipedia.org/wiki/Coffee" target="_blank" rel="noopener noreferrer">The
-                Wikipedia Coffee Page</a></p>
+        <p>&copy; 2026 Pet Lovers Paradise. Built for Web Design for Everybody.</p>
     </footer>
-
 </body>
-
 </html>
